@@ -39,6 +39,7 @@ try:
     use_gcp_logging = True
 except Exception:
     import logging
+
     logger = logging.getLogger(__name__)
 
 allow_origins = (
